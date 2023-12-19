@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Rental-Sepeda</string>
+    <string name="usr">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="gmbr">gmbr</string>
+    <string name="logo">logo</string>
+    <string name="rent">rent</string>
+    <string name="rent2">rent</string>
+    <string name="rent1">rent</string>
+    <string name="touring">touring</string>
+    <string name="hybrid">hybrid</string>
+    <string name="bmx">bmx</string>
+    <string name="search">search</string>
+    <string name="bg1">bg1</string>
+    <string name="bg2">bg2</string>
+    <string name="bg3">bg3</string>
+    <string name="bg4">bg4</string>
+    <string name="bg5">bg5</string>
+    <string name="login">login</string>
+    <string name="next">next</string>
+    <string name="kalender">kalender</string>
+    <string name="filter">filter</string>
+    <string name="ha">Have an account?</string>
+    <string name="home">home</string>
+    <string name="home1">home1</string>
+    <string name="info">info</string>
+    <string name="selesai">selesai</string>
+    <string name="wa">wa</string>
+    <string name="judul">judul</string>
+    <string name="sepeda">sepeda</string>
+</resources>

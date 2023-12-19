@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/bmx"
+        android:layout_width="376dp"
+        android:layout_height="295dp"
+        android:src="@drawable/sepedatouring"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/bmx" />
+
+    <RelativeLayout
+        android:id="@+id/imageView24"
+        android:layout_width="407dp"
+        android:layout_height="425dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="344dp"
+        android:contentDescription="@string/bg5"
+        android:background="@drawable/info">
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="sepeda touring adalah sepeda yang digunakan perjalanan jauh. Sepeda jenis ini menyajikan kenyaman saat menggunakannya dan tidak membutuhkan tenaga yang besar saat mengayuhnya, sehingga anda dapat menempuh jarak yang lebih jauh lebih enteng dibanding sepeda jenis lainnya."
+             android:padding="20dp"
+            android:textSize="22sp"
+            android:gravity="start|center_vertical" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonBooking"
+        android:layout_width="249dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="634dp"
+        android:text="BOOKING"
+        android:textSize="30sp"
+        android:background="@drawable/booking"
+        android:contentDescription="@string/bg5">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="370dp"
+        android:contentDescription="@string/hybrid"
+        android:src="@drawable/bmx3" />
+
+</RelativeLayout>

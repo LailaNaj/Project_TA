@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/bmx"
+        android:layout_width="376dp"
+        android:layout_height="295dp"
+        android:src="@drawable/sepedabmx"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/bmx" />
+
+    <RelativeLayout
+        android:id="@+id/imageView24"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="344dp"
+        android:contentDescription="@string/bg5"
+        android:background="@drawable/info">
+
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sepeda BMX merupakan pilihan yang tepat bagi anak. BMX adalah sepeda yang dirancang untuk pemakaian anak yang aktif bermain dan sedang tumbuh, juga dapat digunakan oleh orang dewasa. untuk atraksi di medan yang ekstrim. Dengan fleksibilitas sepeda BMX yang tinggi dan ketahanannya, sepeda ini cocok digunakan dalam berbagai medan."
+                android:padding="55dp"
+                android:textSize="16sp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonBooking"
+        android:layout_width="249dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="634dp"
+        android:text="BOOKING"
+        android:textSize="30sp"
+        android:background="@drawable/booking"
+        android:contentDescription="@string/bg5">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bmx1"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="370dp"
+        android:contentDescription="@string/bmx" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:layout_centerVertical="true"
+    tools:context=".LoginActivity">
+
+<ImageView
+android:id="@+id/logoImageView"
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:layout_centerHorizontal="true"
+android:layout_alignParentTop="true"
+    android:layout_marginTop="80dp"
+    android:contentDescription="@string/logo"
+    app:srcCompat="@drawable/people"
+    android:background="@drawable/profil" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImageView"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@color/white"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="@color/green"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:textColor="@color/white" />
+</RelativeLayout>

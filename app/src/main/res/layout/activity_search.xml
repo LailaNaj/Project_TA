@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search2"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="179dp"
+        android:contentDescription="@string/bg1" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search2"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="336dp"
+        android:contentDescription="@string/bg2" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search2"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="497dp"
+        android:contentDescription="@string/bg3" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search3"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="194dp"
+        android:contentDescription="@string/bg4" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search3"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="348dp"
+        android:contentDescription="@string/bg5" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search3"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="513dp"
+        android:contentDescription="@string/bg5" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="122dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sepedabmx"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="203dp"
+        android:contentDescription="@string/bmx" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="117dp"
+        android:layout_height="114dp"
+        android:src="@drawable/sepeda_hybrid"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="352dp"
+        android:contentDescription="@string/hybrid" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="122dp"
+        android:layout_height="95dp"
+        android:src="@drawable/sepedatouring"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="523dp"
+        android:contentDescription="@string/touring" />
+
+    <Button
+        android:id="@+id/buttonRent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="272dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Rent 1"
+        android:contentDescription="@string/rent1" />
+
+    <Button
+        android:id="@+id/buttonRent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="426dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Rent 2"
+        android:contentDescription="@string/rent2" />
+
+    <Button
+        android:id="@+id/buttonRent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="591dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Rent 3"
+        android:contentDescription="@string/rent" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/judul"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/judul" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sepeda1"
+        android:layout_marginLeft="203dp"
+        android:layout_marginTop="186dp"
+        android:contentDescription="@string/sepeda" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sepeda2"
+        android:layout_marginLeft="203dp"
+        android:layout_marginTop="342dp"
+        android:contentDescription="@string/sepeda" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sepeda3"
+        android:layout_marginLeft="203dp"
+        android:layout_marginTop="508dp"
+        android:contentDescription="@string/sepeda" />
+
+</RelativeLayout>
